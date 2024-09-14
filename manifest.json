@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Project 2025: Naruto Edition",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "content.js" ]
+    }
+  ],
+  "icons": {
+    "16": "Logo/16.png",
+    "32": "Logo/32.png",
+    "48": "Logo/48.png",
+    "128": "Logo/128.png"
+  }
+}
